@@ -37,7 +37,7 @@ model = genai.GenerativeModel(
     safety_settings=safety_settings
 )
 
-# Prompt setup for SQL generation
+# Prompt setup for SQL generation .
 input_prompt = st.text_area("Enter your custom SQL prompt:", 
                             "You are an expert in converting English questions to SQL code!")
 
